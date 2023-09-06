@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import { SafeAreaView, View, Text, TextInput, Button } from "react-native";
 import { useDispatch } from 'react-redux';
-
+//reducer tetiklemem gerekiyor bunu için dispatcher kullanmam gerekir
+//dispactch ile reducer tetiklenir. İçierisinde iki parameter vardır.
+    //type: reducer içerisindeki hangi case in çalışacağını buluyor.
+    //payload tipinde bir nesne gönderiyoruz
 const Primary = () => {
 
     const [text, setText] = useState('');

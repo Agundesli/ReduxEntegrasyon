@@ -1,7 +1,7 @@
 import React from "react";
 import { SafeAreaView, Text, FlatList } from "react-native";
 import { useSelector } from "react-redux";
-
+//global stateleri görübilmek kullanabilmek vs içindse useSelectoru kullanıyoruz
 const Secondary = () => {
     const list = useSelector(s => s.nameList);
     return (
